@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+metadataBase: new URL(
+  "https://tasnim-ghaleb-portfolio.vercel.app"
+),
   title: {
     default: "Tasnim Ghaleb | Software Development & Data Analytics",
     template: "%s | Tasnim Ghaleb",
